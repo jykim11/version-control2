@@ -8,20 +8,60 @@
 .form {
     padding: 1rem;
     background-color: beige;
-    width: 20%;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 25%;
 }
 
-.form > input {
+.form>input {
     padding: 0.3rem;
     margin: 0.5rem;
-    
+
 }
 
-.form > button {
+.form>button {
     padding: 0.3rem;
-    
+
 }
 
-input:hover, input:focus, textarea:hover, textarea:focus {
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
     outline: 2px solid rgb(69, 240, 249);
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation li {
+    margin: 9px;
+    font-size: 20px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.navigation li a:hover,
+.navigation li a:visited {
+    color: orange;
+}
+
+.button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: darkgreen;
+    border: 2px solid darkgreen;
 }
